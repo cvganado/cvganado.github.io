@@ -107,19 +107,19 @@
             <form role="form">
               <div class="form-group pesoSca">
                 <label for="pesoSca" id="ps"><img src="./media/scala.png" width="24px" height="24px"> <img src="./media/kilo.png" width="24px" height="24px"></label>
-                <input type="number" step="0.01" min="0" inputmode="numeric" pattern="[0-9]*" class="form-control" id="pesoSca" value="100">
+                <input type="number" step="0.01" min="0" inputmode="decimal" pattern="[0-9]*" class="form-control" id="pesoSca" value="100">
               </div>
               <div class="form-group numAni">
                 <label for="numAni" id="na"><span>#</span><img src="./media/gan.png" width="24px" height="24px"></label>
-                <input type="number" step="0.01" min="0" inputmode="numeric" pattern="[0-9]*" class="form-control" id="numAni" value="1">
+                <input type="number" step="0.01" min="0" inputmode="decimal" pattern="[0-9]*" class="form-control" id="numAni" value="1">
               </div>
               <div class="form-group pesoAni">
                 <label for="pesoAni" id="pa"><img src="./media/gan.png" width="24px" height="24px"> <img src="./media/kilo.png" width="24px" height="24px">Total</label>
-                <input type="number" step="0.01" min="0" inputmode="numeric" pattern="[0-9]*" class="form-control" id="pesoAni">
+                <input type="number" step="0.01" min="0" inputmode="decimal" pattern="[0-9]*" class="form-control" id="pesoAni">
               </div>
               <div class="form-group aniPrec">
                 <label for="aniPrec" id="ap"><img src="./media/dinero.png" width="24px" height="24px"> </label>
-                <input type="number" step="0.01" min="0" inputmode="numeric" pattern="[0-9]*" class="form-control" id="aniPrec">
+                <input type="number" step="0.01" min="0" inputmode="decimal" pattern="[0-9]*" class="form-control" id="aniPrec">
               </div>
               <button type="button" onclick="cTotal()" value="text" class="btn btn-default" id="calcu">Calcular</button>
             </form>
